@@ -16,7 +16,7 @@ class CarController extends Controller
         $location = \Stevebauman\Location\Facades\Location::get($ip);
         $country = $location == false ? 'AE' : $location->countryCode;
         $price_column = $country == 'AE' ? 'price_aed' : 'price_africa';
-        $cars = Car::query()->orderBy($price_column, 'desc')->paginate(10);
+        $cars = Car::query()->orderBy($price_column, 'desc')->get();
         $makers = Car::query()->select('maker')->distinct()->get();
 
         return view('website.showRoom', compact('cars', 'makers'));
@@ -51,9 +51,9 @@ class CarController extends Controller
         $country = $location == false ? 'AE' : $location->countryCode;
         $price_column = $country == 'AE' ? 'price_aed' : 'price_africa';
         if ($request->maker != 'null') {
-            $cars = Car::query()->maker($request->maker)->model($request->model)->orderBy($price_column, $price_order)->paginate(10);
+            $cars = Car::query()->maker($request->maker)->model($request->model)->orderBy($price_column, $price_order)->get();
         } else {
-            $cars = Car::query()->orderBy($price_column, $price_order)->paginate(10);
+            $cars = Car::query()->orderBy($price_column, $price_order)->get();
         }
         $makers = Car::query()->select('maker')->distinct()->get();
 
@@ -69,7 +69,7 @@ class CarController extends Controller
         $country = $location == false ? 'AE' : $location->countryCode;
         $price_column = $country == 'AE' ? 'price_aed' : 'price_africa';
         $makers = Car::query()->select('maker')->distinct()->get();
-        $cars = Car::query()->maker($maker)->orderBy($price_column, 'desc')->paginate(10);
+        $cars = Car::query()->maker($maker)->orderBy($price_column, 'desc')->get();
 
         return view('website.showRoom', compact('cars', 'makers'));
     }

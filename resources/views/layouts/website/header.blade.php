@@ -33,38 +33,42 @@
                     <span class="overflow">Home</span>
                 </a>
             </li>
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="{{route('front.contact')}}">
+                    <span class="overflow">Contact Us</span>
+                </a>
+            </li>
         </ul>
         <div
             class="container-content d-flex flex-column justify-content-center section-margin"
         >
             <div class="nav__info">
                 <div class="nav-content">
-                    <h5 class="sm-title-block mb-10">Studio</h5>
-                    26-30 New Damietta El-Mahalla El-Kubra, SK1 66LM
+                    <h5 class="sm-title-block mb-10">ADDRESS</h5>
+                    <b>UAE Address:</b> Blue Bay Tower, Business Bay, Dubai, United Arab Emirates.<br><br>
+                    <b>Africa Address:</b> St. Andrews Office Park, Meadowbrook Lane, Epsom Downs, <br>
+                    Sandton, Johannesburg, South Africa.
                 </div>
                 <div class="nav-content mt-30">
                     <h5 class="sm-title-block mb-10">Contact</h5>
                     <p class="links over-hidden mb-1">
                         <a
                             class="link-hover d-block"
-                            href="tel:00201004392260"
-                            data-hover-text="+00 (2)012 3321"
-                        >+00 (2)01004392260</a
-                        >
+                            href="tel:+9710585628810"
+                            data-hover-text="(+971) 058 562 8810"
+                        >Dubai: (+971) 058 562 8810 </a>
                         <a
                             class="link-hover"
-                            href="tel:00201024552406"
-                            data-hover-text="+00 (2)012 3321"
-                        >+00 (2)01024552406</a
-                        >
+                            href="tel:+27638402330"
+                            data-hover-text="(+27) 638 402 330"
+                        >Johannesburg: (+27) 638 402 330</a>
                     </p>
                     <p class="links over-hidden">
                         <a
                             class="link-hover"
-                            href="mailto:info@dsngrid.com"
-                            data-hover-text="info@dsngrid.com"
-                        >info@dsngrid.com</a
-                        >
+                            href="mailto:info@pvsme.com"
+                            data-hover-text="info@pvsme.com"
+                        >info@pvsme.com</a>
                     </p>
                 </div>
             </div>
@@ -74,35 +78,17 @@
                     <ul style="--dsn-li-name: dsn6">
                         <li style="--dsn-li-index: 0">
                             <a
-                                href="#0"
+                                href="http://www.facebook.com/pvs.hub"
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
-                            >Dribbble.</a
-                            >
+                            >Facebook.</a>
                         </li>
                         <li style="--dsn-li-index: 1">
                             <a
-                                href="#0"
+                                href="https://www.instagram.com/pvs.hub/"
                                 target="_blank"
                                 rel="nofollow noopener noreferrer"
-                            >Behance.</a
-                            >
-                        </li>
-                        <li style="--dsn-li-index: 2">
-                            <a
-                                href="#0"
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                            >Linkedin.</a
-                            >
-                        </li>
-                        <li style="--dsn-li-index: 3">
-                            <a
-                                href="#0"
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
-                            >Twitter.</a
-                            >
+                            >Instagram.</a>
                         </li>
                     </ul>
                 </div>

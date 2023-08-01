@@ -145,25 +145,20 @@
 >
     <ul class="socials d-flex flex-column-reverse">
         <li style="--dsn-index-animate: 0">
-            <a href="#0" target="_blank" rel="nofollow">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Fb</span>
+            <a href="http://www.facebook.com/pvs.hub" target="_blank" rel="nofollow">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Facebook</span>
             </a>
         </li>
         <li style="--dsn-index-animate: 1">
-            <a href="#0" target="_blank" rel="nofollow">
+            <a href="https://www.instagram.com/pvs.hub/" target="_blank" rel="nofollow">
                 <i class="fab fa-instagram" aria-hidden="true"></i
                 ><span>Instagram</span>
             </a>
         </li>
-        <li style="--dsn-index-animate: 2">
-            <a href="#0" target="_blank" rel="nofollow">
-                <i class="fab fa-twitter" aria-hidden="true"></i><span>Tw</span>
-            </a>
-        </li>
-        <li style="--dsn-index-animate: 3">
-            <a href="#0" target="_blank" rel="nofollow">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i
-                ><span>Linkedin</span>
+        <li style="--dsn-index-animate: 1">
+            <a href="https://wa.me/message/RZFCMAH6LXATJ1" target="_blank" rel="nofollow">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i
+                ><span>Whatsapp</span>
             </a>
         </li>
     </ul>

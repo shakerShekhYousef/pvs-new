@@ -27,11 +27,11 @@
                 <div class="content p-relative">
                     <div class="intro-project w-100">
                         <div id="hero_title">
-                            <h1 class="title" data-dsn-ajax="title">
+                            <h3 class="title" data-dsn-ajax="title" style="font-size: 39px;">
                                 {{$car->title}} <br/>
-                                <p>Posted {{$car->created_at->diffForHumans()}}</p>
-                            </h1>
+                            </h3>
                         </div>
+                        <p>Posted {{$car->created_at->diffForHumans()}}</p>
                         <p class="subtitle-meta metas p-relative mt-10 heading-color">
                             <b>PRICE : </b> {{set_price($car)}} <br/>
                             <b>TRIM : </b> {{$car->model}} <br/>

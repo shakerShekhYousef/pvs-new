@@ -6,11 +6,12 @@ use App\Http\Controllers\website\HomeController;
 use Illuminate\Support\Facades\Route;
 
 //Return Home Page
+const SHOW_ROOM = '/show-room';
 Route::get('/home', [HomeController::class, 'index'])->name('front.home');
 //Return Contact Page
 Route::get('/contact-us', [ContactController::class, 'index'])->name('front.contact');
 //Return Show Room Page
-Route::get('/show-room', [CarController::class, 'show_room'])->name('front.show_room');
+Route::get(SHOW_ROOM, [CarController::class, 'show_room'])->name('front.show_room');
 //Return Car Details page
 Route::get('/car/{maker}/{model}/{year}/{slug}', [CarController::class, 'car_details'])->name('front.details');
 //Route Get Models

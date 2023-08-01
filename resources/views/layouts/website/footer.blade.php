@@ -50,7 +50,7 @@
                     <div class="dsn-logo main-logo">
                         <div class="main-logo">
                             <a
-                                href="#"
+                                href="{{route('front.home')}}"
                                 data-dsn-text="PVS"
                                 class="custom-logo-link main-brand effect-ajax"
                                 rel="home"
@@ -75,51 +75,25 @@
                     >
                         <li>
                             <a
-                                href="#0"
+                                href="http://www.facebook.com/pvs.hub"
                                 target="_blank"
                                 rel="nofollow"
                                 class="init-color move-circle border-color-default"
                                 data-dsn="parallax"
                             ><span class="dsn-icon"
                                 ><i class="fab fa-facebook-f"></i></span
-                                ><span>FB</span></a
-                            >
+                                ><span>FB</span></a>
                         </li>
                         <li>
                             <a
-                                href="#0"
-                                target="_blank"
-                                rel="nofollow"
-                                class="init-color move-circle border-color-default"
-                                data-dsn="parallax"
-                            ><span class="dsn-icon"
-                                ><i class="fab fa-twitter"></i></span
-                                ><span>TW</span></a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="#0"
-                                target="_blank"
-                                rel="nofollow"
-                                class="init-color move-circle border-color-default"
-                                data-dsn="parallax"
-                            ><span class="dsn-icon"
-                                ><i class="fab fa-linkedin-in"></i></span
-                                ><span>LN</span></a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="#0"
+                                href="https://www.instagram.com/pvs.hub/"
                                 target="_blank"
                                 rel="nofollow"
                                 class="init-color move-circle border-color-default"
                                 data-dsn="parallax"
                             ><span class="dsn-icon"
                                 ><i class="fab fa-instagram"></i></span
-                                ><span>IN</span></a
-                            >
+                                ><span>IN</span></a>
                         </li>
                     </ul>
                 </div>
@@ -130,21 +104,10 @@
                     <div class="menu-footer-menu-container">
                         <ul id="menu-footer-menu" class="menu">
                             <li class="menu-item">
-                                <a href="home.html" class="effect-ajax">HOME</a>
+                                <a href="{{route('front.home')}}" class="effect-ajax">HOME</a>
                             </li>
                             <li class="menu-item">
-                                <a href="work-classic-2.html" class="effect-ajax"
-                                >PORTFOLIO</a
-                                >
-                            </li>
-                            <li class="menu-item">
-                                <a href="stories.html" class="effect-ajax">NEWS</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="about-us.html" class="effect-ajax">ABOUT</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contact.html" class="effect-ajax">CONTACT</a>
+                                <a href="{{route('front.contact')}}" class="effect-ajax">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -155,15 +118,15 @@
                     </h4>
 
                     <div class="col-contact">
-                        <p><strong>T</strong> : +001 225 3351</p>
-                        <p class="mt-10"><strong>F</strong> :+001 225 3351</p>
+                        <p><strong>UAE TEL</strong> : <a href="tel:+9710585628810">(+971) 058 562 8810</a></p>
+                        <p class="mt-10"><strong>Africa TEL</strong> :<a href="tel:+27638402330">(+27) 638 402 330</a></p>
                         <p class="over-hidden mt-10">
-                            <strong>E</strong> :
+                            <strong>EMAIL</strong> :
                             <a
                                 class="link-hover"
-                                href="#"
-                                data-hover-text="info@dsngrid.com"
-                            >info@dsngrid.com</a
+                                href="mailto:info@pvsme.com"
+                                data-hover-text="info@pvsme.com"
+                            >info@pvsme.com</a
                             >
                         </p>
                     </div>
@@ -174,8 +137,8 @@
                     </h4>
                     <div class="col-address">
                         <p>
-                            El-Mahalla El-Kubra 37<br/>
-                            1776 Damietta<br/>Egypt
+                            <b>UAE Address:</b> <br/>Blue Bay Tower, Business Bay, Dubai, United Arab Emirates.<br/><br/>
+                            <b>Africa Address:</b> <br/>St. Andrews Office Park, Meadowbrook Lane, Epsom Downs, Sandton, Johannesburg, South Africa.
                         </p>
                     </div>
                 </div>
