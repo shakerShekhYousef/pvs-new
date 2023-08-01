@@ -1,0 +1,4 @@
+[27-Jul-2023 15:23:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/xls78u01/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xls78u01/public_html/config/cache.php on line 18
