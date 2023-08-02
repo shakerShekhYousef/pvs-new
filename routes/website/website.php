@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 //Return Home Page
 const SHOW_ROOM = '/show-room';
-Route::get('/home', [HomeController::class, 'index'])->name('front.home');
+Route::get('/', [HomeController::class, 'index'])->name('front.home');
 //Return Contact Page
 Route::get('/contact-us', [ContactController::class, 'index'])->name('front.contact');
 //Return Show Room Page
@@ -31,7 +31,7 @@ Route::get('/our-team', function () {
 //Contact us
 Route::post('contact-us/send', [HomeController::class, 'contact_us_send'])->name('front.contact_us');
 //test
-Route::get('/', function () {
+Route::get('/test', function () {
     return view('website.test');
 });
 //Export page
