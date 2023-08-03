@@ -34,6 +34,21 @@
                 </a>
             </li>
             <li class="nav-item has-sub-menu">
+                <a title="Home" href="{{route('front.show_room')}}">
+                    <span class="overflow">SHOWROOM</span>
+                </a>
+            </li>
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="{{route('front.urban')}}">
+                    <span class="overflow">URBAN</span>
+                </a>
+            </li>
+            <li class="nav-item has-sub-menu">
+                <a title="Home" href="{{route('team')}}">
+                    <span class="overflow">TEAM</span>
+                </a>
+            </li>
+            <li class="nav-item has-sub-menu">
                 <a title="Home" href="{{route('front.contact')}}">
                     <span class="overflow">Contact Us</span>
                 </a>

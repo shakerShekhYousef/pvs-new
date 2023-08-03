@@ -107,6 +107,15 @@
                                 <a href="{{route('front.home')}}" class="effect-ajax">HOME</a>
                             </li>
                             <li class="menu-item">
+                                <a href="{{route('front.show_room')}}" class="effect-ajax">SHOWROOM</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{route('front.urban')}}" class="effect-ajax">URBAN</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{route('team')}}" class="effect-ajax">TEAM</a>
+                            </li>
+                            <li class="menu-item">
                                 <a href="{{route('front.contact')}}" class="effect-ajax">CONTACT</a>
                             </li>
                         </ul>
