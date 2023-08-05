@@ -113,6 +113,9 @@
                                 <a href="{{route('front.urban')}}" class="effect-ajax">URBAN</a>
                             </li>
                             <li class="menu-item">
+                                <a href="{{route('front.financing')}}" class="effect-ajax">FINANCING</a>
+                            </li>
+                            <li class="menu-item">
                                 <a href="{{route('team')}}" class="effect-ajax">TEAM</a>
                             </li>
                             <li class="menu-item">

@@ -643,6 +643,24 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
     text-align: center;
 }
 
+.dsn-accordion .accordion__answer .list-unstyled li {
+    font-size: 18px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+.dsn-accordion .accordion__answer .list-unstyled li::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+}
+
 @media only screen and (max-width: 991px) {
     .footer-animate.svg-animate .dsn-separator {
         height: 100px;
@@ -691,6 +709,112 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
     background-position: bottom left;
     background-repeat: no-repeat;
     opacity: 0.3;
+}
+
+.financ-page {
+    background: #2f2e2f;
+    color: #fff;
+}
+
+
+.financ-page .container h1,
+.financ-page .container p {
+    text-align: center;
+}
+
+.financ-page .main {
+    font-size: 30px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.financ-page .main::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 5px;
+    background: #3253a1;
+}
+
+.box-cal {
+    background: #1d1c1d;
+
+}
+.box-cal .icon img {
+    filter: brightness(0) invert(1);
+    width: 40px;
+    margin-bottom: 1.5rem;
+}
+.calculator_container {
+    border-right: 2px solid;
+    padding: 2rem;
+}
+.financ-page {
+    background: #2f2e2f;
+    color: #fff;
+}
+
+
+.financ-page .container h1,
+.financ-page .container p {
+    text-align: center;
+}
+
+.financ-page .main {
+    font-size: 30px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.financ-page .main::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 5px;
+    background: #3253a1;
+}
+.financ-page .box {
+    box-shadow: 0 0 9px 2px #0000006e;
+    padding: 2rem;
+    height: 100%;
+}
+
+.financ-page .box li {
+    font-size: 18px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+.financ-page .box li::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 13px;
+    background-color: #3253a1;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+
+}
+
+.financ-page .box h2 {
+    font-size: 25px;
+}
+
+.financ-page .box .title::before {
+    height: 25px;
+    top: 3px;
+}
+
+.financ-page .last::before {
+    display: none;
 }
 
 .experience .exp-number {

@@ -44,6 +44,11 @@
                 </a>
             </li>
             <li class="nav-item has-sub-menu">
+                <a title="Home" href="{{route('front.financing')}}">
+                    <span class="overflow">FINANCING</span>
+                </a>
+            </li>
+            <li class="nav-item has-sub-menu">
                 <a title="Home" href="{{route('team')}}">
                     <span class="overflow">TEAM</span>
                 </a>
