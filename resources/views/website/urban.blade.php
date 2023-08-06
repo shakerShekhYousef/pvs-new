@@ -11,7 +11,7 @@
     <!-- ========== End Header ========== -->
     <div id="page_wrapper" class="wrapper">
         <!-- ========== Right Box With Image  ========== -->
-        <div class="right-box-image section-margin dsn-container dsn-left-container over-hidden">
+        <div class="right-box-image dsn-container dsn-left-container over-hidden" style=" margin-top: 4pc;">
             <div class="box-img">
                 <div class="img-box-parallax h-v-80 w-100 before-z-index dsn-animate dsn-effect-left"
                      data-dsn-triggerhook="bottom"
@@ -48,7 +48,7 @@
         </div>
         <!-- ========== End About Section Tow ========== -->
         <!-- ========== Portfolio ========== -->
-        <div class="section-margin background-section section-padding">
+        <div class="background-section section-padding">
             <div class="p-relative dsn-style-list dsn-image-odd box-image-parallax ">
                 <div class="root-posts">
                     <div class="dsn-posts dsn-post-type-list">
@@ -99,7 +99,7 @@
         </div>
         <!-- Urban contact section -->
         <!-- ========== Right Box With Image  ========== -->
-        <div class="right-box-image section-margin dsn-container dsn-left-container over-hidden">
+        <div class="right-box-image dsn-container dsn-left-container over-hidden">
             <div class="box-img">
                 <div class="img-box-parallax h-v-80 w-100 before-z-index dsn-animate dsn-effect-left"
                      data-dsn-triggerhook="bottom"
@@ -123,7 +123,8 @@
                                         </li>
                                         <li>
                                             <i class='bx bxs-location-plus'></i>
-                                            <a href="mailto:sales@urban-automotive.ae">Email: sales@urban-automotive.ae</a>
+                                            <a href="mailto:sales@urban-automotive.ae">Email:
+                                                sales@urban-automotive.ae</a>
 
                                         </li>
                                         <li>
